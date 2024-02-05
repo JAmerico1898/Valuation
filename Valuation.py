@@ -51,9 +51,9 @@ with st.form("captura"):
     st.markdown("<h6 style='text-align: center; color: grey'>Em 2023, a estimativa para o Vasco foi de 84M</h6>", unsafe_allow_html=True)
     st.markdown("---")    
 
-    st.markdown("<h4 style='text-align: center; color: green'>Escolha o Valor do Múltiplo da Receita Operacional Líquida para obter o Valor do Clube</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center'>Escolha o Valor do Múltiplo da Receita Operacional Líquida para obter o Valor do Clube</h4>", unsafe_allow_html=True)
     multiplo = st.slider("", min_value=2.0, max_value=6.0, step=0.1)    
-    st.markdown("<h6 style='text-align: center; color: green'>Antes da pandemia, os múltiplos giravam em torno<br>de 2, após a pandemia, entre 4 e 5.</h6>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: center; color: grey'>Antes da pandemia, os múltiplos giravam em torno<br>de 2, após a pandemia, entre 4 e 5.</h6>", unsafe_allow_html=True)
     st.markdown("---")    
 
     button = st.form_submit_button("**Calcule o Valor do CLUBE!**")
