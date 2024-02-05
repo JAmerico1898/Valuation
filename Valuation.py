@@ -53,7 +53,7 @@ with st.form("captura"):
 
     st.markdown("<h4 style='text-align: center; color: blue'>Escolha o Valor do Múltiplo da Receita Operacional Líquida para obter o Valor do Clube</h4>", unsafe_allow_html=True)
     multiplo = st.slider("", min_value=2.0, max_value=6.0, step=0.1)    
-    st.markdown("<h6 style='text-align: center; color: blue'>Antes da pandemia, os múltiplos giravam em torno de 2,<br>após a pandemia, entre 4 e 5.</h6>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: center; color: blue'>Antes da pandemia, os múltiplos giravam em torno<br>de 2, após a pandemia, entre 4 e 5.</h6>", unsafe_allow_html=True)
     st.markdown("---")    
 
     button = st.form_submit_button("**Calcule o Valor do CLUBE!**")
