@@ -66,7 +66,7 @@ if button:
 
     fontsize = 25
     st.markdown("---")    
-    st.markdown("<h4 style='text-align: center'>Renda Operacional Líquida e Valor do Clube</b></h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center'>Renda Operacional Líquida<br>Valor do Clube</b></h4>", unsafe_allow_html=True)
     markdown_amount = f"<div style='text-align:center; font-size:{fontsize}px'>R$ {renda_oper_liquida:.0f} milhões</div>"
     markdown_amount_2 = f"<div style='text-align:center; font-size:{fontsize}px'>R$ {valuation:.0f} milhões</div>"
 
