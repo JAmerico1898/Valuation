@@ -13,42 +13,42 @@ with st.form("captura"):
 
     st.markdown("<h4 style='text-align: center;'>Escolha o Valor dos Direitos de Transmissão da Série A</h4>", unsafe_allow_html=True)
     direitos_transmissão = st.slider(label="", min_value=0, max_value=300, step=1)
-    st.markdown("<h6 style='text-align: center; color: red'>Em 2023, a estimativa para o Vasco foi de 109M, nas seguintes parcelas:<br>igualitária: 31,8M; audiência:30,4M; colocação: 16.7M; PPV: 30M </h6>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: center; color: grey'>Em 2023, a estimativa para o Vasco foi de 109M, nas seguintes parcelas:<br>igualitária: 31,8M; audiência:30,4M; colocação: 16.7M; PPV: 30M </h6>", unsafe_allow_html=True)
     st.markdown("---")    
 
     st.markdown("<h4 style='text-align: center;'>Escolha o Valor dos Direitos de Transmissão do Estadual</h4>", unsafe_allow_html=True)
     direitos_transmissão2 = st.slider("", min_value=0, max_value=24, step=1)
-    st.markdown("<h6 style='text-align: center; color: red'>Em 2023, a estimativa para o Vasco foi de 8M por não ter aderido à proposta da FERJ,<br>cujo valor máximo foi de 24M </h6>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: center; color: grey'>Em 2023, a estimativa para o Vasco foi de 8M por não ter aderido à proposta da FERJ,<br>cujo valor máximo foi de 24M </h6>", unsafe_allow_html=True)
     st.markdown("---")    
 
     st.markdown("<h4 style='text-align: center;'>Escolha o Valor da Premiação da Copa do Brasil</h4>", unsafe_allow_html=True)
     cb = st.slider("", min_value=0, max_value=90, step=1)    
-    st.markdown("<h6 style='text-align: center; color: red'>Em 2024, a premiação será de: Oitavas: 9M; Quartas: 13, Semi: 22; Campeão: até 90M</h6>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: center; color: grey'>Em 2024, a premiação será de: Oitavas: 9M; Quartas: 13, Semi: 22; Campeão: até 90M</h6>", unsafe_allow_html=True)
     st.markdown("---")    
 
     st.markdown("<h4 style='text-align: center;'>Escolha o Valor da Premiação da Sulamericana ou Libertadores</h4>", unsafe_allow_html=True)
     continental = st.slider("", min_value=0, max_value=145, step=1)    
-    st.markdown("<h6 style='text-align: center; color: red'>Em 2023, a premiação da Libertadores foi de:<br>Fase de Grupos: 20M; Oitavas: 27M; Semi: 39, Campeão: até 145M</h6>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: center; color: grey'>Em 2023, a premiação da Libertadores foi de:<br>Fase de Grupos: 20M; Oitavas: 27M; Semi: 39, Campeão: até 145M</h6>", unsafe_allow_html=True)
     st.markdown("---")    
 
     st.markdown("<h4 style='text-align: center;'>Escolha o Valor da Receita com bilheteria/Match Day</h4>", unsafe_allow_html=True)
     bilheteria = st.slider("", min_value=0, max_value=150, step=1)    
-    st.markdown("<h6 style='text-align: center; color: red'>Em 2023, a estimativa para o Vasco foi de 33M.<br>Com a reforma de SJ, a estimativa foi de 80M</h6>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: center; color: grey'>Em 2023, a estimativa para o Vasco foi de 33M.<br>Com a reforma de SJ, a estimativa foi de 80M</h6>", unsafe_allow_html=True)
     st.markdown("---")    
 
     st.markdown("<h4 style='text-align: center;'>Escolha o Valor da Receita com Sócio-Torcedor</h4>", unsafe_allow_html=True)
     socio = st.slider("", min_value=0, max_value=120, step=1)    
-    st.markdown("<h6 style='text-align: center; color: red'>Em 2023, a estimativa para o Vasco foi de 30M<br>Com a reforma de SJ, a estimativa foi de 50M</h6>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: center; color: grey'>Em 2023, a estimativa para o Vasco foi de 30M<br>Com a reforma de SJ, a estimativa foi de 50M</h6>", unsafe_allow_html=True)
     st.markdown("---")    
 
     st.markdown("<h4 style='text-align: center;'>Escolha o Valor da Receita com Marketing + Comercial</h4>", unsafe_allow_html=True)
     mkt = st.slider("", min_value=0, max_value=200, step=1)
-    st.markdown("<h6 style='text-align: center; color: red'>Em 2023, a estimativa para o Vasco foi de 40M</h6>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: center; color: grey'>Em 2023, a estimativa para o Vasco foi de 40M</h6>", unsafe_allow_html=True)
     st.markdown("---")    
     
     st.markdown("<h4 style='text-align: center;'>Escolha o Valor da Receita com Venda de Jogadores</h4>", unsafe_allow_html=True)
     jogadores = st.slider("", min_value=0, max_value=200, step=2)
-    st.markdown("<h6 style='text-align: center; color: red'>Em 2023, a estimativa para o Vasco foi de 84M</h6>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: center; color: grey'>Em 2023, a estimativa para o Vasco foi de 84M</h6>", unsafe_allow_html=True)
     st.markdown("---")    
 
     st.markdown("<h4 style='text-align: center; color: blue'>Escolha o Valor do Múltiplo da Receita Operacional Líquida para obter o Valor do Clube</h4>", unsafe_allow_html=True)
